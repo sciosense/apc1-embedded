@@ -66,6 +66,5 @@ Result              Apc1_CheckData              (const uint8_t* data, const Apc1
 Result              Apc1_CheckCommandResponse   (const Apc1_Command command, const uint8_t* data, const Apc1_CommandResponse& size);  // checks if the data corresponds to the command result protocol and calculates the checksum thereafter; returns RESULT_INVALID if the protocol does not match
 Result              Apc1_CheckMeasurementData   (const uint8_t* data);                                                      // checks measurement date checksum and data plausability
 
-
 #include "ScioSense_Apc1.inl.h"
 #endif // SCIOSENSE_APC1_C_H
