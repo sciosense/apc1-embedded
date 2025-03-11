@@ -1,4 +1,5 @@
 # ScioSense APC1 C Library
+
 the C library for the Air Purification Combo ONE (APC1) sensor with UART or I2C interface from ScioSense.
 
 The APC1 is a compact, box-shaped, all-in-one environmental sensor solution produced by
@@ -29,4 +30,3 @@ This library is developed for ScioSense by [at² GmbH](https://www.at2-software.
 
 @at2software
 
-### ScioSense is a Joint Venture of ams AG 
